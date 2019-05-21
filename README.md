@@ -2,13 +2,13 @@
 
 by [Eddy Verbruggen](http://www.x-services.nl) for iOS, Android and WP8
 
-1. [Description](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#1-description)
-2. [Installation](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#2-installation)
-	2. [Automatically (CLI / Plugman)](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#automatically-cli--plugman)
-	2. [Manually](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#manually)
-	2. [PhoneGap Build](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#phonegap-build)
-3. [Usage](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#3-usage)
-4. [Credits](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin#4-credits)
+1. [Description](https://github.com/amiltonjr/Flashlight-PhoneGap-Plugin#1-description)
+2. [Installation](https://github.com/amiltonjr/Flashlight-PhoneGap-Plugin#2-installation)
+	2. [Automatically (CLI / Plugman)](https://github.com/amiltonjr/Flashlight-PhoneGap-Plugin#automatically-cli--plugman)
+	2. [Manually](https://github.com/amiltonjr/Flashlight-PhoneGap-Plugin#manually)
+	2. [PhoneGap Build](https://github.com/amiltonjr/Flashlight-PhoneGap-Plugin#phonegap-build)
+3. [Usage](https://github.com/amiltonjr/Flashlight-PhoneGap-Plugin#3-usage)
+4. [Credits](https://github.com/amiltonjr/Flashlight-PhoneGap-Plugin#4-credits)
 
 ## 1. Description
 
@@ -31,7 +31,7 @@ $ cordova plugin add cordova-plugin-flashlight
 
 Bleeding edge version from Github:
 ```
-$ cordova plugin add https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin
+$ cordova plugin add https://github.com/amiltonjr/Flashlight-PhoneGap-Plugin
 ```
 
 ### PhoneGap Build
@@ -79,7 +79,7 @@ window.plugins.flashlight.toggle(
 );
 ```
 
-To know if the flashlight is on or off you can call `isSwitchedOn` 
+To know if the flashlight is on or off you can call `isSwitchedOn`
 ```javascript
 window.plugins.flashlight.isSwitchedOn(); // returns true/false
 ```
