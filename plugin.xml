@@ -56,7 +56,7 @@
 
     <source-file src="src/android/nl/xservices/plugins/Flashlight.java" target-dir="src/nl/xservices/plugins"/>
 
-    <dependency id="cordova-plugin-compat" version="^1.0.0" />
+    <dependency id="cordova-plugin-compat" version="1.2.0" />
   </platform>
 
   <!-- wp8 -->
